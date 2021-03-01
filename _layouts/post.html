@@ -16,8 +16,19 @@ layout: main
     {% endif %}
     <div class="wrap-content">
       <header class="header-page">
-        <h1 class="page-title">{{page.title}}</h1>
-        <div class="page-date"><span>{{page.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
+        <h1 class="page-title"><b>{{page.title}}</b></h1>
+        <div style="display:flex; width: 100%; ">
+          {% if page.authors %}
+            {% for pauthor in page.authors %}
+              {% assign author = site.data.authors[pauthor] %}
+              {% if author.url %}
+                <h3 style="display: inline; width: 100%;"><a href='{{author.url}}'>{{author.name}}</a></h3>
+              {% else %}
+                <h3 style="display: inline; width: 100%;">{{ author.name }}</h3>
+              {% endif %}
+            {% endfor %}
+          {% endif %}
+        </div>
       </header>
       {{content | markdownify}}
       <div class="page-footer">
