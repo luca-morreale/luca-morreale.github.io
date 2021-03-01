@@ -1,6 +1,13 @@
 ---
 layout: post
 title: "Predicting the Next Best View for 3D Mesh Refinement"
+authors: [lmorreale, aromanoni, mmatteucci]
+webpage: /photometric-next-best-view-for-drones/
+pdf: https://arxiv.org/pdf/1805.06207
+code: https://github.com/luca-morreale/stochastic-nbv-4-mesh-refinement
+thumbnail: photometric_thumbnail.png 
+summary: Next Best View prediction based on photogrammetry principles."
+
 date: 2018-05-21 16:39:18
 comments: false
 description: "Next Best View for Drones"
@@ -26,6 +33,19 @@ Based on the selected areas, our approach can jointly favor exploration and refi
 I worked on this research project, as my master thesis, alongside professor Matteo Matteucci and PhD Andrea Romanoni. The goal was to estimate the accuracy of the reconstruction and use it to identify a pose for a new picture to be captured so to enhance it. Thanks to results we obtained we published an article at IAS-15 which has been accepted for oral presentation, and we are currently working on an extended version for a journal.
 {% endcomment %}
 
-#### Related Publication
+#### Related Links
 
-[[PDF](https://arxiv.org/pdf/1805.06207)][[CODE](https://github.com/luca-morreale/stochastic-nbv-4-mesh-refinement)] L. Morreale, A. Romanoni, M. Matteucci. *Predicting the Next Best View for 3D Mesh Refinement* **@** IAS-15
+[[PDF]({{page.pdf}})][[CODE]({{page.code}})] L. Morreale, A. Romanoni, M. Matteucci. *Predicting the Next Best View for 3D Mesh Refinement* **@** IAS-15
+
+#### Bibtex
+```
+@inproceedings{morreale2018predicting,
+  title={Predicting the Next Best View for 3D Mesh Refinement},
+  author={Morreale, Luca and Romanoni, Andrea and Matteucci, Matteo},
+  booktitle={International Conference on Intelligent Autonomous Systems},
+  pages={760--772},
+  year={2018},
+  organization={Springer}
+}
+```
+
