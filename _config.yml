@@ -23,6 +23,11 @@ analytics: UA-123734832-1 # Google Analytics
 
 # Build Settings
 markdown: kramdown
+
+kramdown:
+  math_engine: mathjax
+
+
 plugins:
   - jekyll-sitemap
   - jekyll-paginate
