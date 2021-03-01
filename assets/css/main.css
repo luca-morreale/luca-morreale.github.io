@@ -774,7 +774,7 @@ html {
 
 body {
   font-family: 'Lato', sans-serif;
-  color: #515151;
+  color: #000;
   background-color: #fbfbfb;
   margin: 0;
   -webkit-font-smoothing: antialiased;
@@ -884,12 +884,14 @@ table tfoot td {
 }
 
 .wrapper {
-  max-width: 1250px;
+  //max-width: 1250px;
   position: relative;
 }
 
 .post, .article-page {
   background-color: #fff;
+  max-width: 970px;
+  margin: auto;
 }
 
 ::-moz-selection {
@@ -1117,7 +1119,7 @@ footer .copyright {
   -webkit-align-items: stretch;
       -ms-flex-align: stretch;
           align-items: stretch;
-  min-height: 11rem;
+  min-height: 9rem;
   -webkit-border-radius: 10px;
           border-radius: 10px;
   overflow: hidden;
@@ -1137,9 +1139,9 @@ footer .copyright {
 }
 
 .post .post-thumbnail {
-  width: 30%;
+  width: 250px;
   max-width: 100%;
-  min-height: 11rem;
+  min-height: 9rem;
   -webkit-background-size: cover;
           background-size: cover;
   background-position: 50% 50%;
@@ -1208,6 +1210,7 @@ a.newer-posts:hover {
   font-weight: 400;
   margin: 0 0 10px;
   line-height: 1.3;
+  font-family:Arial,sans-serif;
 }
 
 .header-page .page-date {
