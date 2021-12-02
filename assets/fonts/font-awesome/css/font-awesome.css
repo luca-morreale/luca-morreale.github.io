@@ -2317,6 +2317,10 @@
 .fa-meetup:before {
   content: "\f2e0";
 }
+.fa-scholar:before {
+  content: url('assets/img/google-scholar.svg');
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
