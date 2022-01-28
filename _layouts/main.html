@@ -10,44 +10,70 @@ layout: default
       </div>
       <div class="author-name">{{site.author}}</div>
       <p>{{site.about-author}}</p>
+      
+      {% if site.author-cv %}
+        <a href="{{site.baseurl}}/assets/doc/{{ site.author-cv }}"><h3>CV</h3></a>
+      {% endif %}
     </div>
-  </header> <!-- End Header -->
-  <footer>
+
     <section class="contact">
       <h3 class="contact-title">Contact me</h3>
       <ul>
-        {% if site.social-twitter %}
-          <li><a href="https://twitter.com/{{ site.social-twitter }}" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-        {% else %}
-          <li><a href="https://twitter.com/artemsheludko_" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-        {% endif %}
-        {% if site.social-scholar %}
-          <li><a href="https://scholar.google.com/citations?user={{ site.social-scholar }}" target="_blank"><i class="fab fa-scholar fa-xs" aria-hidden="true"></i></a></li>
-        {% else %}
-          <li><a href="https://scholar.google.com/" target="_blank"><i class="fa fa-scholar" aria-hidden="true"></i></a></li>
-        {% endif %}
-        {% if site.social-github %}
-          <li class="github"><a href="http://github.com/{{site.social-github}}" target="_blank"><i class="fa fa-github"></i></a></li>
-        {% else %}
-          <li class="github"><a href="http://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-        {% endif %}
-        {% if site.social-linkedin %}
-          <li class="linkedin"><a href="https://in.linkedin.com/in/{{site.social-linkedin}}" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-        {% else %}
-          <li class="linkedin"><a href="https://in.linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-        {% endif %}
+
         {% if site.social-email %}
           <li class="email"><a href="mailto:{{site.social-email}}"><i class="fa fa-envelope-o"></i></a></li>
         {% else %}
           <li class="email"><a href="mailto:example.david@blog.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
         {% endif %}
+
+        {% if site.social-scholar %}
+          <li><a href="https://scholar.google.com/citations?user={{ site.social-scholar }}" target="_blank"><i class="fab fa-scholar fa-xs" aria-hidden="true"></i></a></li>
+        {% else %}
+          <li><a href="https://scholar.google.com/" target="_blank"><i class="fa fa-scholar" aria-hidden="true"></i></a></li>
+        {% endif %}
+
+        {% if site.social-github %}
+          <li class="github"><a href="http://github.com/{{site.social-github}}" target="_blank"><i class="fa fa-github"></i></a></li>
+        {% else %}
+          <li class="github"><a href="http://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+        {% endif %}
+
+        {% if site.social-linkedin %}
+          <li class="linkedin"><a href="https://in.linkedin.com/in/{{site.social-linkedin}}" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+        {% else %}
+          <li class="linkedin"><a href="https://in.linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+        {% endif %}
+
+        {% if site.social-twitter %}
+          <li><a href="https://twitter.com/{{ site.social-twitter }}" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        {% else %}
+          <li><a href="https://twitter.com/artemsheludko_" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        {% endif %}
       </ul>
     </section> <!-- End Section Contact -->
+
+  </header> <!-- End Header -->
+  <footer>
     <div class="copyright">
       <p>{{site.time | date: '%Y'}} &copy; {{site.author}}</p>
     </div>
   </footer> <!-- End Footer -->
 </aside> <!-- End Sidebar -->
+
+<div class="content-box clearfix">
+  <header>
+    <h1 class="page__title" itemprop="headline">About me</h1>
+  </header>
+  <div style="display: block; block; width: 100%; clear:both;">
+    <p>
+      I am a PhD student at <a href="https://www.ucl.ac.uk/">University College London</a>, working with <a href="http://www0.cs.ucl.ac.uk/staff/n.mitra/">Niloy J. Mitra</a> and <a href="https://noamaig.github.io/">Noam Aigerman</a>.
+      My research lies at the intersection of geometry processing, computer graphics and deep learning.
+    </p>
+  </div>
+
+
+</div>
+
 <div class="content-box clearfix">
   {{ content }}
 </div>
