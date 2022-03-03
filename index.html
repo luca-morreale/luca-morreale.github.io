@@ -9,7 +9,7 @@ layout: main
   {% endif %}
   <div class="post-content">
     <h2 class="post-title"><a href="{{post.webpage}}">{{post.title}}</a></h2>
-    <p>{{ post.summary | strip_html | truncatewords: 15 }}</p>
+    <p>{{ post.summary | strip_html | truncatewords: 21 }}</p>
     <span>
         {% if post.pdf %}
 	<p style="display:inline;"><b>[<a href="{{post.pdf}}">PDF</a>]</p></b>
