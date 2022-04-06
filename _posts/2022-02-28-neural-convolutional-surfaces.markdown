@@ -2,6 +2,7 @@
 layout: post
 title: "Neural Convolutional Surfaces"
 webpage:  "http://geometry.cs.ucl.ac.uk/projects/2022/cnnmaps/"
+pdf: "https://arxiv.org/pdf/2204.02289.pdf"
 thumbnail: cnnsurf_thumbnail.png
 summary: "Neural surface representation disentangling coarse geometry from fine details. Thanks to CNNs inductive bias, the description is compact and allows editing."
 
