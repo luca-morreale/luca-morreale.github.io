@@ -60,6 +60,9 @@ layout: default
   </footer> <!-- End Footer -->
 </aside> <!-- End Sidebar -->
 
+{% unless page.img %}
+
+<!-- About me section, when not in a post page -->
 <div class="content-box clearfix">
   <header>
     <h1 class="page__title" itemprop="headline">About me</h1>
@@ -70,9 +73,9 @@ layout: default
       My research lies at the intersection of geometry processing, computer graphics and deep learning.
     </p>
   </div>
-
-
 </div>
+
+{% endunless %}
 
 <div class="content-box clearfix">
   {{ content }}
