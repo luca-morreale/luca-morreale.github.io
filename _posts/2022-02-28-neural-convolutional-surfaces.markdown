@@ -13,5 +13,5 @@ description: "Neural Convolutional Surfaces"
 keywords: "machine learning"
 categories:
 - projects
-tags: [Machine Learning, Neural representation, Editing, Interpretability] # add tag
+tags: [Machine Learning, Computer graphics, CNN, Neural representation, Editing, Interpretability] # add tag
 ---
