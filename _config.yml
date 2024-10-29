@@ -1,5 +1,5 @@
-title: Luca Morreale's Personal Website
-description: Personal Page of Luca Morreale
+title: Luca Morreale's Website
+description: Website of Luca Morreale
 permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
