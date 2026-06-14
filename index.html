@@ -2,14 +2,15 @@
 layout: main
 ---
 {% for post in paginator.posts %}
+{% assign project_url = post.webpage | default: post.pdf %}
 
 <article class="post">
   {% if post.thumbnail %}
-    <a class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.thumbnail}})" href="{{post.webpage}}"></a>
+    <a class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.thumbnail}})" href="{{project_url}}"></a>
   {% else %}
   {% endif %}
   <div class="post-content">
-    <h2 class="post-title"><a href="{{post.webpage}}">{{post.title}}</a></h2>
+    <h2 class="post-title"><a href="{{project_url}}">{{post.title}}</a></h2>
     <p>{{ post.summary | strip_html | truncatewords: 21 }}</p>
     <span>
         {% if post.pdf %}
