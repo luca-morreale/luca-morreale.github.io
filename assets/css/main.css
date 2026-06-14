@@ -1104,7 +1104,7 @@ footer .copyright {
 .post {
   width: 100%;
   max-width: 100%;
-  margin-bottom: 1.5rem;
+  margin-bottom: .6rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1138,12 +1138,12 @@ footer .copyright {
 }
 
 .post .post-thumbnail {
-  width: 200px;
-  height: 200px;
+  width: 175px;
+  height: 175px;
   -webkit-box-flex: 0;
-  -webkit-flex: 0 0 200px;
-      -ms-flex: 0 0 200px;
-          flex: 0 0 200px;
+  -webkit-flex: 0 0 175px;
+      -ms-flex: 0 0 175px;
+          flex: 0 0 175px;
   aspect-ratio: 1 / 1;
   max-width: 100%;
   -webkit-background-size: cover;
@@ -1152,9 +1152,9 @@ footer .copyright {
 }
 
 .post .post-content {
-  padding: 1rem;
-  width: -webkit-calc(100% - 200px);
-  width: calc(100% - 200px);
+  padding: .55rem .7rem;
+  width: -webkit-calc(100% - 175px);
+  width: calc(100% - 175px);
 }
 
 .post .post-content .post-date,
@@ -1163,8 +1163,8 @@ footer .copyright {
 }
 
 .post .post-content .post-title {
-  margin: 0 0 10px;
-  font-size: 30px;
+  margin: 0 0 4px;
+  font-size: 26px;
   font-weight: 400;
 }
 
@@ -1175,14 +1175,14 @@ footer .copyright {
 }
 
 .post .post-content .post-venue {
-  margin: -4px 0 8px;
-  font-size: 14px;
+  margin: -2px 0 4px;
+  font-size: 13px;
   font-weight: 700;
   color: #515151;
 }
 
 .post .post-content p {
-  margin-top: 0;
+  margin: 0 0 6px;
 }
 
 a.older-posts, a.newer-posts {
