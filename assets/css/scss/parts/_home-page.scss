@@ -141,7 +141,7 @@ footer {
   display: flex;
   flex-direction: row;
   align-items: stretch;
-  min-height: 11rem;
+  min-height: 9rem;
   border-radius: 10px;
   overflow: hidden;
   transition: all .3s ease;
@@ -152,16 +152,18 @@ footer {
   }
 
   .post-thumbnail {
-    width: 30%;
+    width: 200px;
+    height: 200px;
+    flex: 0 0 200px;
+    aspect-ratio: 1 / 1;
     max-width: 100%;
-    min-height: 11rem;
     background-size: cover;
     background-position: 50% 50%;
   }
 
   .post-content {
     padding: 1rem;
-    width: 70%;
+    width: calc(100% - 200px);
     .post-date,
     .post-words {
       font-size: 12px;

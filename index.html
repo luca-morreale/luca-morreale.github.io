@@ -1,7 +1,7 @@
 ---
 layout: main
 ---
-{% for post in paginator.posts %}
+{% for post in site.posts %}
 {% assign project_url = post.webpage | default: post.pdf %}
 
 <article class="post">
@@ -32,6 +32,3 @@ layout: main
 </article>
 
 {% endfor %}
-
-
-{% include pagination.html %}

@@ -8,6 +8,9 @@
 
     .post-thumbnail {
       width: 100%;
+      height: auto;
+      flex-basis: auto;
+      aspect-ratio: 1 / 1;
     }
 
     .post-content {
@@ -78,6 +81,9 @@
 
     .post-thumbnail {
       width: 100%;
+      height: auto;
+      flex-basis: auto;
+      aspect-ratio: 1 / 1;
     }
 
     .post-content {

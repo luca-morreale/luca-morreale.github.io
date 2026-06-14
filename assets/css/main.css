@@ -1138,9 +1138,14 @@ footer .copyright {
 }
 
 .post .post-thumbnail {
-  width: 250px;
+  width: 200px;
+  height: 200px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 200px;
+      -ms-flex: 0 0 200px;
+          flex: 0 0 200px;
+  aspect-ratio: 1 / 1;
   max-width: 100%;
-  min-height: 9rem;
   -webkit-background-size: cover;
           background-size: cover;
   background-position: 50% 50%;
@@ -1148,7 +1153,8 @@ footer .copyright {
 
 .post .post-content {
   padding: 1rem;
-  width: 70%;
+  width: -webkit-calc(100% - 200px);
+  width: calc(100% - 200px);
 }
 
 .post .post-content .post-date,
@@ -1379,6 +1385,11 @@ a.newer-posts:hover {
   }
   .post .post-thumbnail {
     width: 100%;
+    height: auto;
+    -webkit-flex-basis: auto;
+        -ms-flex-preferred-size: auto;
+            flex-basis: auto;
+    aspect-ratio: 1 / 1;
   }
   .post .post-content {
     width: 100%;
@@ -1470,6 +1481,11 @@ a.newer-posts:hover {
   }
   .post .post-thumbnail {
     width: 100%;
+    height: auto;
+    -webkit-flex-basis: auto;
+        -ms-flex-preferred-size: auto;
+            flex-basis: auto;
+    aspect-ratio: 1 / 1;
   }
   .post .post-content {
     width: 100%;
