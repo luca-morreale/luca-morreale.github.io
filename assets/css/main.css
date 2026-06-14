@@ -1022,6 +1022,32 @@ table tfoot td {
           align-items: stretch;
 }
 
+.sidebar-section {
+  margin: 0 0 22px;
+  text-align: center;
+}
+
+.sidebar-section h3 {
+  color: #333030;
+  font-weight: 700;
+  font-size: 12px;
+  margin: 0 0 8px;
+  text-transform: uppercase;
+}
+
+.sidebar-section ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.sidebar-section li {
+  margin: 0 0 5px;
+  font-size: 13px;
+  line-height: 1.25;
+  color: #515151;
+}
+
 .contact .contact-title {
   position: relative;
   color: #333030;

@@ -68,6 +68,29 @@
   align-items: stretch;
 }
 
+.sidebar-section {
+  margin: 0 0 22px;
+  text-align: center;
+  h3 {
+    color: $dark;
+    font-weight: 700;
+    font-size: 12px;
+    margin: 0 0 8px;
+    text-transform: uppercase;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  li {
+    margin: 0 0 5px;
+    font-size: 13px;
+    line-height: 1.25;
+    color: $body-color;
+  }
+}
+
 .contact {
   .contact-title {
     position: relative;
