@@ -4,6 +4,7 @@ title: "NanoFLUX: Distillation-Driven Compression of Large Text-to-Image Generat
 pdf: "https://arxiv.org/pdf/2602.06879.pdf"
 thumbnail: nanoflux_thumbnail.jpg
 summary: "NanoFLUX compresses a 17B FLUX text-to-image model into a 2.4B model for high-quality, low-latency generation on mobile devices."
+venue: "ICML 2026"
 
 date: 2026-02-06 00:00:00
 comments: false

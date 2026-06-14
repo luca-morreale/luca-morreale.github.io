@@ -4,6 +4,7 @@ title: "PhD Thesis - Neural Surfaces"
 pdf:  "https://geometry.cs.ucl.ac.uk/images/publications/lucamorreale_thesis.pdf"
 thumbnail: thesis_thumbnail.png
 summary: "This thesis discusses map-based neural representations as effective alternative to meshes in geometry processing tasks."
+venue: "PhD thesis, University College London, 2024"
 
 date: 2024-07-12 00:00:00
 comments: false

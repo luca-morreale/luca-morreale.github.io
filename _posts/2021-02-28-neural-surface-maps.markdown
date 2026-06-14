@@ -6,6 +6,7 @@ code : https://github.com/luca-morreale/neural_surface_maps
 thumbnail: neuralmaps_thumbnail.png
 pdf: https://openaccess.thecvf.com/content/CVPR2021/papers/Morreale_Neural_Surface_Maps_CVPR_2021_paper.pdf
 summary: "Neural representation of surface maps, allowing optimization of differentiable quantities in inter-surface maps."
+venue: "CVPR 2021"
 
 date: 2021-02-28 00:00:00
 comments: false

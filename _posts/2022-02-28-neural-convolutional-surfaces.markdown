@@ -6,6 +6,7 @@ pdf: "https://arxiv.org/pdf/2204.02289.pdf"
 code: "https://github.com/luca-morreale/neural_surfaces"
 thumbnail: cnnsurf_thumbnail.png
 summary: "Neural surface representation disentangling coarse geometry from fine details. Thanks to CNNs inductive bias, the description is compact and allows editing."
+venue: "CVPR 2022"
 
 date: 2022-02-28 00:00:00
 comments: false

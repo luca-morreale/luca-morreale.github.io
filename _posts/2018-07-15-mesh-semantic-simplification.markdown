@@ -6,6 +6,7 @@ webpage: /mesh-semantic-simplification/
 pdf: https://arxiv.org/pdf/1902.07511.pdf
 thumbnail: probabilistic_view07.png 
 summary: "Fast scene point cloud simplification leveraging semantic information."
+venue: "ICRA 2019"
 
 date: 2018-07-15 15:09:48
 comments: false

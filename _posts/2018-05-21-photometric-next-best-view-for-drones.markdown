@@ -6,7 +6,8 @@ webpage: /photometric-next-best-view-for-drones/
 pdf: https://arxiv.org/pdf/1805.06207
 code: https://github.com/luca-morreale/stochastic-nbv-4-mesh-refinement
 thumbnail: photometric_thumbnail.png 
-summary: Next Best View prediction based on photogrammetry principles."
+summary: "Next Best View prediction based on photogrammetry principles."
+venue: "IAS-15 2018"
 
 date: 2018-05-21 16:39:18
 comments: false
@@ -48,4 +49,3 @@ I worked on this research project, as my master thesis, alongside professor Matt
   organization={Springer}
 }
 ```
-

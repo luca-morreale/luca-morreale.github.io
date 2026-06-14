@@ -4,6 +4,7 @@ title: "EDiT: Efficient Diffusion Transformers with Linear Compressed Attention"
 pdf: "https://arxiv.org/pdf/2503.16726.pdf"
 thumbnail: edit_thumbnail.jpg
 summary: "EDiT introduces linear compressed attention for diffusion transformers, improving text-to-image efficiency while retaining high-quality generation."
+venue: "ICCV 2025"
 
 date: 2025-03-20 00:00:00
 comments: false

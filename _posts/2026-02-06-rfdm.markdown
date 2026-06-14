@@ -4,6 +4,7 @@ title: "RFDM: Residual Flow Diffusion Model for Efficient Causal Video Editing"
 pdf: "https://arxiv.org/pdf/2602.06871.pdf"
 thumbnail: rfdm_thumbnail.jpg
 summary: "RFDM is a causal video editing model that edits variable-length videos efficiently by exploiting temporal redundancy through residual flow diffusion."
+venue: "CVPR 2026"
 
 date: 2026-02-06 00:00:00
 comments: false

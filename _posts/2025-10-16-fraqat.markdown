@@ -4,6 +4,7 @@ title: "FraQAT: Quantization Aware Training with Fractional bits"
 pdf: "https://arxiv.org/pdf/2510.14823.pdf"
 thumbnail: fraqat_thumbnail.png
 summary: "FraQAT introduces fractional-bit quantization aware training to progressively reduce model precision while preserving generative model quality."
+venue: "CVPR Findings 2026"
 
 date: 2025-10-16 00:00:00
 comments: false

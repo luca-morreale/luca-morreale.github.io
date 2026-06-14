@@ -1174,6 +1174,13 @@ footer .copyright {
   color: #263959;
 }
 
+.post .post-content .post-venue {
+  margin: -4px 0 8px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #515151;
+}
+
 .post .post-content p {
   margin-top: 0;
 }

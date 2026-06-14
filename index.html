@@ -11,6 +11,9 @@ layout: main
   {% endif %}
   <div class="post-content">
     <h2 class="post-title"><a href="{{project_url}}">{{post.title}}</a></h2>
+    {% if post.venue %}
+      <p class="post-venue">{{ post.venue }}</p>
+    {% endif %}
     <p>{{ post.summary | strip_html | truncatewords: 21 }}</p>
     <span>
         {% if post.pdf %}

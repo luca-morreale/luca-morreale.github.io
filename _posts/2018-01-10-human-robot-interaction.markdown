@@ -6,6 +6,7 @@ pdf: https://www.mdpi.com/1999-5903/10/3/22/pdf
 code: https://github.com/ewerlopes/lda-player-model
 thumbnail: hri.png # Add image post (optional)
 summary: "Novel player represenation in Physically-Interactive RoboGames."
+venue: "Future Internet 2018"
 
 date: 2018-01-10 15:38:28
 comments: false
